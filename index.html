@@ -1,0 +1,96 @@
+<!doctype html>
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>母亲节--献给我的母亲</title>
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/impress-common.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+    <style>
+        #bored {
+            background-image: url('./img/bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+<div id="impress"
+    data-transition-duration="1000"
+    
+    data-width="1024"
+    data-height="768"
+    data-max-scale="3"
+    data-min-scale="0"
+    data-perspective="1000"
+    
+    data-autoplay="7">
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500" data-autoplay="10">
+        <q style="color:pink">母亲节快乐！</q>
+        <span>愿母亲健康平安，天天开心快乐。</span>
+    </div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="try">您的碎碎念念，温暖了我的岁岁年年</span>
+    </div>
+
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <p>你先是你自己，然后才是妈妈。一辈子你围着我转，这次换我围着你转。</p>
+    </div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>母亲节只有一天，但爱你这件事，贯穿了我的生命。</p>
+    </div>
+
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>踏足山川湖海，走不出你的臂弯。爱没有方向，但你就是导航</p>
+    </div>
+
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
+        <p>你是我人生第一眼的世界，从此，我成了你余生的全世界。</p>
+    </div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
+        <p>愿你的岁暮不辞丰茂，愿你的盛开不畏霜凋</p>
+    </div>
+    <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
+        <p>妈妈您辛苦了 ！ 妈妈！ 我爱你</p>
+    </div>
+    <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+        <p>祝愿您母亲节快乐！ 身体健康!</p>
+        <p>作者：李奕璇</p>
+    </div>
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
+    </div>
+</div>
+<div id="impress-toolbar"></div>
+
+
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+</body>
+</html>
+
